@@ -21,8 +21,13 @@
 
   /*
    * List of trackers, must have name, url and trackingPattern
+   * IMPROVEMENT: Need to keep tracker's definations externally.
    */
   var trackers = [{
+    'name': 'Amazon\'s Tracking Pixel',
+    'url': 'http://amazon.com/',
+    'trackingPattern': /www\.amazon\.(in|com)\/gp\/r\.html\?R\=.*transp\.gif/
+  }, {
     'name': 'bananatag',
     'url': 'http://bananatag.com/',
     'trackingPattern': /bl\-1\.com\//
@@ -30,6 +35,14 @@
     'name': 'ContactMonkey',
     'url': 'https://contactmonkey.com/',
     'trackingPattern': /contactmonkey\.com\/api\/v1\/tracker/
+  }, {
+    'name': 'Dyn',
+    'url': 'https://dyn.com/',
+    'trackingPattern': /trk\.email\.dynect\.net\/trk.php/
+  }, {
+    'name': 'Flipkart\'s Tracking Pixel',
+    'url': 'https://flipkart.com/',
+    'trackingPattern': /www\.flipkart\.com\/ch.php.*=openImg/
   }, {
     'name': 'MailChimp',
     'url': 'http://www.mailchimp.com/',
@@ -39,7 +52,7 @@
     'url': 'https://mandrillapp.com/',
     'trackingPattern': /mandrillapp\.com\/track\//
   }, {
-    'name': 'NewRelic Tracking Pixel',
+    'name': 'NewRelic\'s Tracking Pixel',
     'url': 'http://newrelic.com/',
     'trackingPattern': /rpm\.newrelic\.com\/tracking\//
   }, {
@@ -50,6 +63,10 @@
     'name': 'Streak',
     'url': 'https://www.streak.com/',
     'trackingPattern': /mailfoogae\.appspot\.com\//
+  }, {
+    'name': 'Uber\'s Tracking Pixel',
+    'url': 'https://www.uber.com/',
+    'trackingPattern': /click\.et\.uber\.com\/open\.aspx/
   }, {
     'name': 'Yesware',
     'url': 'http://www.yesware.com/',
