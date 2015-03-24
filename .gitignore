@@ -1,0 +1,16 @@
+*~
+*#
+#*
+.#*
+*.pyc
+.Python
+*.sqlite3
+.DS_Store
+venv
+bin/*
+lib/*
+local/*
+build/*
+include/*
+__pycache__/*
+extension.zip
