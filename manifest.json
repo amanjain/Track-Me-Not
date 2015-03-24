@@ -1,8 +1,14 @@
 {
   "manifest_version": 2,
   "name": "Track Me Not",
-  "description": "Chrome extension for disabling tracking of your emails",
-  "version": "0.2",
+  "version": "0.3",
+
+  "default_locale": "en",
+  "description": "See who's tracking your emails and block them from doing so.",
+  "icons": {"128": "assets/logo-128x128.png"},
+
+  "author": "Aman Kumar Jain",
+
   "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
   "background": {
     "scripts": ["background.js"]

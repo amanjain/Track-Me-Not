@@ -23,4 +23,5 @@ def archive(files, path_to_archive, root):
         arc.write(f, "/%s" % f)
     arc.close()
 
-archive(["manifest.json", "content.js", "background.js"], "extension.zip", "/")
+archive(["manifest.json", "content.js", "background.js",
+         "assets/logo-128x128.png"], "extension.zip", "/")

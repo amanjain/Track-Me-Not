@@ -13,4 +13,4 @@ local/*
 build/*
 include/*
 __pycache__/*
-extension.zip
+extension*
