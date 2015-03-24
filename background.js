@@ -75,7 +75,7 @@
      * Send message to content script to display blocking alert
      */
     var cancel = trackers.reduce(function(previousValue, currentValue, index, array){
-      var hasTracker = (currentValue.trackingPattern && details.url && details.url.match(currentValue.trackingPattern));
+      var hasTracker = (currentValue.trackingPattern && details.url && details.url.match(currentValue.trackingPattern))?true:false;
       if(hasTracker){
 	chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
 	  chrome.tabs.sendMessage(tabs[0].id, {
