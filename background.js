@@ -39,6 +39,10 @@
     'url': 'https://mandrillapp.com/',
     'trackingPattern': /mandrillapp\.com\/track\//
   }, {
+    'name': 'NewRelic Tracking Pixel',
+    'url': 'http://newrelic.com/',
+    'trackingPattern': /rpm\.newrelic\.com\/tracking\//
+  }, {
     'name': 'Sidekick',
     'url': 'http://www.getsidekick.com/',
     'trackingPattern': /\:\/\/t\.signalequattro\.com\//
