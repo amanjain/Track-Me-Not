@@ -36,13 +36,25 @@
     'url': 'https://contactmonkey.com/',
     'trackingPattern': /contactmonkey\.com\/api\/v1\/tracker/
   }, {
+    'name': 'Dropbox\'s Tracking Pixel',
+    'url': 'https://www.dropbox.com/',
+    'trackingPattern': /www\.dropbox\.com\/l\/((?!\/).)*$/
+  }, {
     'name': 'Dyn',
     'url': 'https://dyn.com/',
     'trackingPattern': /trk\.email\.dynect\.net\/trk.php/
   }, {
+    'name': 'Facebook\'s Tracking Pixel',
+    'url': 'https://www.facebook.com/',
+    'trackingPattern': /www\.facebook\.com\/email_open_log_pic\.php/
+  }, {
     'name': 'Flipkart\'s Tracking Pixel',
     'url': 'https://flipkart.com/',
     'trackingPattern': /www\.flipkart\.com\/ch.php.*=openImg/
+  }, {
+    'name': 'Linkedin\'s Tracking Pixel',
+    'url': 'http://www.linkedin.com/',
+    'trackingPattern': /www\.linkedin\.com\/emimp\//
   }, {
     'name': 'MailChimp',
     'url': 'http://www.mailchimp.com/',
@@ -56,6 +68,10 @@
     'url': 'http://newrelic.com/',
     'trackingPattern': /rpm\.newrelic\.com\/tracking\//
   }, {
+    'name': 'Quora\'s Tracking Pixel',
+    'url': 'https://www.quora.com/',
+    'trackingPattern': /\.quoramail\.com\/wf\/open/
+  }, {
     'name': 'Sidekick',
     'url': 'http://www.getsidekick.com/',
     'trackingPattern': /\:\/\/t\.signalequattro\.com\//
@@ -63,6 +79,10 @@
     'name': 'Streak',
     'url': 'https://www.streak.com/',
     'trackingPattern': /mailfoogae\.appspot\.com\//
+  }, {
+    'name': 'Trello\'s Tracking Pixel',
+    'url': 'https://trello.com/',
+    'trackingPattern': /e\.trello\.com\/track\/open\.php/
   }, {
     'name': 'Uber\'s Tracking Pixel',
     'url': 'https://www.uber.com/',
