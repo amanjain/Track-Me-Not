@@ -36,13 +36,10 @@
     el.style.transition = "opacity 1s linear";
     el.style.backgroundColor = "rgb(51, 0, 51)";
     el.innerHTML = service;
-    // el.style.cursor = 'pointer';
-    // el.onclick = function(){
-    //   el.style.opacity = 0;
-    // };
+
     setTimeout(function(){
-      el.style.opacity = 0;
-    }, 15000);
+      el.remove();
+    }, 2000);
     node[0].appendChild(el);
   };
 
